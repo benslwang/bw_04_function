@@ -10,3 +10,4 @@ for my_info in info_tuple:
 # 格式化字符串后面的'()'本质上就是元祖
 print("%s的年龄是 %d, 身高是 %.2f" % info_tuple)
 
+# 元祖中的内容不可被修改
