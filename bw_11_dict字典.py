@@ -34,3 +34,15 @@ xiaoming2 = {"gender": False,
              "age": 32}
 for k in xiaoming2:
     print("%s - %s" % (k, xiaoming2[k]))
+
+card_list = [
+    {"name": "zhangsan",
+     "qq": 363111516,
+     "phone": 123123},
+    {"name": "lisi",
+     "qq": 363121516,
+     "phone": 12341234}
+]
+
+for card_info in card_list:
+    print(card_info)
