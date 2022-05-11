@@ -7,7 +7,7 @@ def multiple_table():
         col = 1
         while col <= row:
             print("%d * %d = %d" % (col, row, col * row), end="\t")
-            # \t 在控制台输出一个字符表，协助在输出文本时，垂直方向保持对齐
+            # \t 在控制台输出一个字符表，协助在输出文本时，垂直方向保持对齐。
             col += 1
         print("")
         row += 1
